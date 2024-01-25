@@ -1,0 +1,9 @@
+{
+  "schema": "",
+  "schemaType": "JSON",
+  "metadata": {
+    "properties": {
+      "application.major.version": "1"
+    }
+  }
+}
