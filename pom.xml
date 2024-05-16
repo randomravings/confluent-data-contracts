@@ -33,6 +33,7 @@
     </pluginRepositories>
 
     <properties>
+        <exec.mainClass>org.example.Main</exec.mainClass>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>17</java.version>
         <slf4j-api.version>2.0.5</slf4j-api.version>
@@ -41,6 +42,11 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>commons-cli</groupId>
+            <artifactId>commons-cli</artifactId>
+            <version>1.3.1</version>
+        </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>

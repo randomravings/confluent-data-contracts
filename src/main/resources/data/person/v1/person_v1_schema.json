@@ -1,17 +1,14 @@
 {
   "$schema":"http://json-schema.org/draft-07/schema#",
-  "title":"User",
+  "title":"Person",
   "type": "object",
   "additionalProperties": true,
   "properties": {
     "givenName": {
       "type": "string"
     },
-    "middleNames": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
+    "middleName": {
+      "type": "string"
     },
     "familyName": {
       "type": "string"

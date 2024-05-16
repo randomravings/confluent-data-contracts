@@ -22,14 +22,17 @@ public class ProducerClient {
             String topic,
             JsonNode schema,
             ArrayNode data,
-            int version
+            String versionKey,
+            String version
     ) {
-        Properties props = createProducerProps(bootstrapServers, schemaRegistryUrl, version);
+        Properties props = createProducerProps(bootstrapServers, schemaRegistryUrl, versionKey, version);
+        System.out.println(props);
         final Producer<String, ObjectNode> producer = new KafkaProducer<>(props);
         try {
             for(final JsonNode value : data) {
                 final String key = UUID.randomUUID().toString();
                 ObjectNode jsonValue = JsonSchemaUtils.envelope(schema, value);
+                System.out.println(value);
                 ProducerRecord<String, ObjectNode> jsonRecord = new ProducerRecord<>(topic, key, jsonValue);
                 producer.send(jsonRecord).get();
             }
@@ -42,7 +45,12 @@ public class ProducerClient {
         }
     }
 
-    private static Properties createProducerProps(String bootstrapServers, String schemaRegistryUrl, int version) {
+    private static Properties createProducerProps(
+            String bootstrapServers,
+            String schemaRegistryUrl,
+            String versionKey,
+            String version
+    ) {
         Properties props = new Properties();
         props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
         props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
@@ -50,7 +58,7 @@ public class ProducerClient {
         props.put("schema.registry.url", schemaRegistryUrl);
         props.put("auto.register.schemas", false);
         props.put("json.fail.invalid.schema", true);
-        props.put("use.latest.with.metadata", String.format("application.major.version=%d", version));
+        props.put("use.latest.with.metadata", String.format("%s=%s", versionKey, version));
         return props;
     }
 }

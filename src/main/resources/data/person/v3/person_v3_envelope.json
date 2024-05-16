@@ -1,0 +1,27 @@
+{
+  "schema": "",
+  "schemaType": "JSON",
+  "metadata": {
+    "properties": {
+      "application.major.version": "3"
+    }
+  },
+  "ruleSet": {
+    "migrationRules": [
+      {
+        "name": "splitMiddleName",
+        "kind": "TRANSFORM",
+        "type": "JSONATA",
+        "mode": "UPGRADE",
+        "expr": "{ \"id\": -1, \"name\": $}"
+      },
+      {
+        "name": "joinMiddleNames",
+        "kind": "TRANSFORM",
+        "type": "JSONATA",
+        "mode": "DOWNGRADE",
+        "expr": "$.\"name\""
+      }
+    ]
+  }
+}
