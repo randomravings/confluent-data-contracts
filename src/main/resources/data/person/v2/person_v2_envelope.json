@@ -13,14 +13,14 @@
         "kind": "TRANSFORM",
         "type": "JSONATA",
         "mode": "UPGRADE",
-        "expr": "$merge([$sift($, function($v, $k) {$k != 'middleName'}), {'middleNames': $map($split(middleName, \",\"), function ($v, $i, $a) { $trim($v)})}])"
+        "expr": "$merge([$sift($, function($v, $k) {$k != 'middleName'}), {'middleName': $map($split(middleName, \",\"), function ($v, $i, $a) { $trim($v)})}])"
       },
       {
         "name": "joinMiddleNames",
         "kind": "TRANSFORM",
         "type": "JSONATA",
         "mode": "DOWNGRADE",
-        "expr": "$merge([$sift($, function($v, $k) {$k != 'middleNames'}), {'middleName': $join(middleNames, \",\")}])"
+        "expr": "$merge([$sift($, function($v, $k) {$k != 'middleName'}), {'middleName': $join(middleName, \",\")}])"
       }
     ]
   }

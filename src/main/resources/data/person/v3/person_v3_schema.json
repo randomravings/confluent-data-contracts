@@ -13,7 +13,7 @@
         "givenName": {
           "type": "string"
         },
-        "middleNames": {
+        "middleName": {
           "type": "array",
           "items": {
             "type": "string"

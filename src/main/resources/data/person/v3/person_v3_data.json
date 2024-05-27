@@ -4,7 +4,7 @@
       "id": 1,
       "name": {
         "givenName": "Franklin",
-        "middleNames": [
+        "middleName": [
           "Anaya"
         ],
         "familyName": "Morin"
@@ -14,7 +14,7 @@
       "id": 2,
       "name": {
         "givenName": "Franklin",
-        "middleNames": [
+        "middleName": [
           "Anaya"
         ],
         "familyName": "Morin"
@@ -24,7 +24,7 @@
       "id": 3,
       "name": {
         "givenName": "Lorn",
-        "middleNames": [
+        "middleName": [
           "Garrick"
         ],
         "familyName": "Eads"
@@ -34,7 +34,7 @@
       "id": 4,
       "name": {
         "givenName": "Landyn",
-        "middleNames": [
+        "middleName": [
           "Beverley"
         ],
         "familyName": "Herbert"
@@ -44,7 +44,7 @@
       "id": 5,
       "name": {
         "givenName": "Linzi",
-        "middleNames": [
+        "middleName": [
           "Roy"
         ],
         "familyName": "David"
@@ -54,7 +54,7 @@
       "id": 6,
       "name": {
         "givenName": "Curtis",
-        "middleNames": [
+        "middleName": [
           "Harland"
         ],
         "familyName": "Page"
@@ -64,7 +64,7 @@
       "id": 7,
       "name": {
         "givenName": "Jasmine",
-        "middleNames": [
+        "middleName": [
           "Carol",
           "Lloyd"
         ],
@@ -75,7 +75,7 @@
       "id": 8,
       "name": {
         "givenName": "Wendell",
-        "middleNames": [
+        "middleName": [
           "Estelle",
           "Mellony"
         ],
@@ -86,7 +86,7 @@
       "id": 9,
       "name": {
         "givenName": "Aline",
-        "middleNames": [
+        "middleName": [
           "Clifton",
           "Shannen"
         ],
@@ -97,7 +97,7 @@
       "id": 10,
       "name": {
         "givenName": "Becci",
-        "middleNames": [
+        "middleName": [
           "Cyrus",
           "Sonnie"
         ],
@@ -108,7 +108,7 @@
       "id": 11,
       "name": {
         "givenName": "Geoff",
-        "middleNames": [
+        "middleName": [
           "Tigerlily",
           "Mckayla"
         ],
@@ -119,7 +119,7 @@
       "id": 12,
       "name": {
         "givenName": "Adena",
-        "middleNames": [
+        "middleName": [
           "Daly",
           "Maddy",
           "Kaelee"
@@ -131,7 +131,7 @@
       "id": 13,
       "name": {
         "givenName": "Kiki",
-        "middleNames": [
+        "middleName": [
           "Heaven",
           "Nell",
           "Eva"
@@ -143,7 +143,7 @@
       "id": 14,
       "name": {
         "givenName": "Quintin",
-        "middleNames": [
+        "middleName": [
           "Kaleigh",
           "Alysha",
           "Paula"
@@ -155,7 +155,7 @@
       "id": 15,
       "name": {
         "givenName": "Anderson",
-        "middleNames": [
+        "middleName": [
           "Brooklyn",
           "Xander",
           "Astor"
@@ -167,7 +167,7 @@
       "id": 16,
       "name": {
         "givenName": "Lefty",
-        "middleNames": [
+        "middleName": [
           "Kelli",
           "Kemp",
           "Charisse"

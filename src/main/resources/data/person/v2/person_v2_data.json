@@ -2,42 +2,42 @@
   "data": [
     {
       "givenName": "Franklin",
-      "middleNames": [
+      "middleName": [
         "Anaya"
       ],
       "familyName": "Morin"
     },
     {
       "givenName": "Lorn",
-      "middleNames": [
+      "middleName": [
         "Garrick"
       ],
       "familyName": "Eads"
     },
     {
       "givenName": "Landyn",
-      "middleNames": [
+      "middleName": [
         "Beverley"
       ],
       "familyName": "Herbert"
     },
     {
       "givenName": "Linzi",
-      "middleNames": [
+      "middleName": [
         "Roy"
       ],
       "familyName": "David"
     },
     {
       "givenName": "Curtis",
-      "middleNames": [
+      "middleName": [
         "Harland"
       ],
       "familyName": "Page"
     },
     {
       "givenName": "Jasmine",
-      "middleNames": [
+      "middleName": [
         "Carol",
         "Lloyd"
       ],
@@ -45,7 +45,7 @@
     },
     {
       "givenName": "Wendell",
-      "middleNames": [
+      "middleName": [
         "Estelle",
         "Mellony"
       ],
@@ -53,7 +53,7 @@
     },
     {
       "givenName": "Aline",
-      "middleNames": [
+      "middleName": [
         "Clifton",
         "Shannen"
       ],
@@ -61,7 +61,7 @@
     },
     {
       "givenName": "Becci",
-      "middleNames": [
+      "middleName": [
         "Cyrus",
         "Sonnie"
       ],
@@ -69,7 +69,7 @@
     },
     {
       "givenName": "Geoff",
-      "middleNames": [
+      "middleName": [
         "Tigerlily",
         "Mckayla"
       ],
@@ -77,7 +77,7 @@
     },
     {
       "givenName": "Adena",
-      "middleNames": [
+      "middleName": [
         "Daly",
         "Maddy",
         "Kaelee"
@@ -86,7 +86,7 @@
     },
     {
       "givenName": "Kiki",
-      "middleNames": [
+      "middleName": [
         "Heaven",
         "Nell",
         "Eva"
@@ -95,7 +95,7 @@
     },
     {
       "givenName": "Quintin",
-      "middleNames": [
+      "middleName": [
         "Kaleigh",
         "Alysha",
         "Paula"
@@ -104,7 +104,7 @@
     },
     {
       "givenName": "Anderson",
-      "middleNames": [
+      "middleName": [
         "Brooklyn",
         "Xander",
         "Astor"
@@ -113,7 +113,7 @@
     },
     {
       "givenName": "Lefty",
-      "middleNames": [
+      "middleName": [
         "Kelli",
         "Kemp",
         "Charisse"
